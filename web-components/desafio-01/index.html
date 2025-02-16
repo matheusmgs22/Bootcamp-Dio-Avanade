@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Notícias Galacticas</title>
     <link rel="stylesheet" href="./styles/card.css">
+    <script src="./src/Components/CardNews.js" defer></script>
+    <script src="./src/Components/TituloDinamico.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card-left">
-                <span>By Matheus Garcia</span>
-                <h1>Darth Vader demite Devs</h1>
-                <p>Darth Vader demite devs que utilizam JavaScript e Python.</p>
-                    <!-- EU SOU SEU PAI-->
-                     <!--nãaooooooooooooooooooooo-->
-            </div>
+        <card-news
+        autor="Matheus"
+        title="Darth Vader Contrata"
+        photo="./assets/darth-vader.jpg"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."
+        link-url="www.google.com"
+        ></card-news>
 
-            <div class="card-right">
-                <img src="./assets/darth-vader.jpg" alt="Image do Darth Vader">
-
-            </div>
-        </div>
+        <card-news
+        title="Yoda convence replubica a utilizar components"
+        content="Yoda se pronuncia e choca replubica."
+        link-url="www.google.com/yoda"
+        ></card-news>
     </div>
+
+
 </body>
 </html>
