@@ -73,6 +73,7 @@ Além dos módulos estudados, também desenvolvi os seguintes projetos durante o
 
 ✅ [Projeto Angular - Blog](https://github.com/matheusmgs22/angular-blog)
 
+✅ [Projeto Spring API Rest](https://github.com/matheusmgs22/spring-decola-tech-2025)
 
 ## 🚀 Conclusão
 
